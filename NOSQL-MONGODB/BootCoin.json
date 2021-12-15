@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "61ba6c384987140c56d3e0ee"
+  },
+  "nroDoc": "104878745851",
+  "tipoDoc": "ruc",
+  "numCel": 985749625,
+  "correo": "rojas.87@hotmail.com",
+  "tipPago": "Yanki",
+  "monto": 450,
+  "_class": "com.proyecto.bootCoin.Entidad.BootCoin"
+},{
+  "_id": {
+    "$oid": "61ba6e4a6fd0061b7b78fea3"
+  },
+  "nroDoc": "78548241510",
+  "tipoDoc": "ruc",
+  "numCel": 999584755,
+  "correo": "sofia.87@hotmail.com",
+  "tipPago": "Yanki",
+  "monto": 150,
+  "_class": "com.proyecto.bootCoin.Entidad.BootCoin"
+}]

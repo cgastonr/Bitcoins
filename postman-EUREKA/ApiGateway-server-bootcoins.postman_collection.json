@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "c6ddc0ce-d21d-4a52-9ea5-bf66dd2f041a",
+		"name": "ApiGateway-server-bootcoins",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8090/api/bootcoin/bootcoin/delete/61ba6c384987140c56d3e0ee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/bootcoin/bootcoin/delete/61ba6c384987140c56d3e0ee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"bootcoin",
+						"bootcoin",
+						"delete",
+						"61ba6c384987140c56d3e0ee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/bootcoin/bootcoin/update/61ba6c384987140c56d3e0ee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"61a0741c09a6511591c1cb61\",\r\n    \"nroDoc\": \"12303651970\",\r\n    \"tipoDoc\": \"ruc\",\r\n    \"nombres\": \"LILIANA\",\r\n    \"apellidos\": \"PACHECO\",\r\n    \"celular\": 954871364,\r\n    \"razonSocial\": \"VENTA_EQUIPOS SAC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/clientes/clientes/update/61a0741c09a6511591c1cb61",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"clientes",
+						"clientes",
+						"update",
+						"61a0741c09a6511591c1cb61"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/bootcoin/bootcoin/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"nroDoc\": \"78548241510\",\r\n    \"tipoDoc\": \"ruc\",\r\n    \"numCel\": \"999584755\",\r\n    \"correo\": \"sofia.87@hotmail.com\",\r\n    \"tipPago\": \"Yanki\",\r\n    \"monto\": 150\r\n}\r\n\r\n  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/bootcoin/bootcoin/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"bootcoin",
+						"bootcoin",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/bootcoin/bootcoin/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/bootcoin/bootcoin/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"bootcoin",
+						"bootcoin",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/bootcoin/bootcoin/listar/61ba6c384987140c56d3e0ee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/bootcoin/bootcoin/listar/61ba6c384987140c56d3e0ee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"bootcoin",
+						"bootcoin",
+						"listar",
+						"61ba6c384987140c56d3e0ee"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
